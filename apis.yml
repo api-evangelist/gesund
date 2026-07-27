@@ -1,7 +1,27 @@
 aid: gesund
 name: Gesund
-description: Gesund is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Gesund.ai is a governance and validation platform for regulated clinical
+  AI, providing infrastructure to build, validate, deploy, monitor, and update medical
+  AI models across regulatory jurisdictions and stakeholders. Its offerings include
+  an AI CRO (contract research organization) delivering independent validation studies
+  for medical AI models, an AI Factory to accelerate in-house model R&D cycles, and
+  a free Validation Hub for testing models against real-world clinical data. Backed
+  by 500 Global and headquartered in Cambridge, Massachusetts, the company focuses
+  on inspection-ready evidence and FDA/QMSR-aligned regulatory compliance for clinical
+  AI teams. The platform is delivered through a hosted web application and currently
+  exposes no public developer API.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://docs.gesund.ai/img/GesundLogo.png
 url: https://raw.githubusercontent.com/api-evangelist/gesund/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Artificial Intelligence
+- Clinical AI
+- Medical AI
+- Governance
+- Validation
+- Regulatory Compliance
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gesund-domain-security.yml
 - type: Website
   url: https://gesund.ai
+- type: Documentation
+  url: https://docs.gesund.ai
+- type: Blog
+  url: https://gesund.ai/blog
+- type: PrivacyPolicy
+  url: https://gesund.ai/privacy
+- type: Login
+  url: https://app.gesund.ai
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
