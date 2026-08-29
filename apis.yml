@@ -10,6 +10,17 @@ description: 'Gesund.ai is a governance and validation platform for regulated cl
   on inspection-ready evidence and FDA/QMSR-aligned regulatory compliance for clinical
   AI teams. The platform is delivered through a hosted web application and currently
   exposes no public developer API.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
