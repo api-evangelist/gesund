@@ -1,0 +1,25 @@
+# Front Door AI Index — gesund — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: gesund
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: gesund.ai
+  final_host: gesund.ai
+  ownership: own
+  owner: gesund
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 33
+  host_score: 33
+  density: 45.64
+  words: 723
+  tiers:
+    agentic: 0
+    core: 33
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 33
